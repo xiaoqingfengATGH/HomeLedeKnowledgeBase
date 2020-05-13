@@ -1,5 +1,5 @@
-#Welcome to the HomeLede wiki!#
-#欢迎来到HomeLede wiki。#
+# Welcome to the HomeLede wiki!
+# 欢迎来到HomeLede wiki。
 
 HomeLede致力于打造一款适合家庭使用，稳定，可靠，简单易用的软路由固件。
 
