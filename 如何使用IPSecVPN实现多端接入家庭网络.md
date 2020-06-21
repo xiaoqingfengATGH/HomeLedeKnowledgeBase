@@ -31,7 +31,7 @@ OpenWrt原生的IPSecVPN应用只支持IOS、Android设备接入，并不支持W
 
 HomeLede v2020.06.20版本内置了两款VPN应用。默认情况下，IPSec VPN 服务器Docker版 处于隐藏状态，如果您想使用Docker版本，请在登录路由管理界面后，在浏览器中输入`http://192.168.1.1/cgi-bin/luci/admin/vpn/strongswanInDocker/show`，则Docker版本就会显示到菜单中（连接中HomeLede路由器的地址，请根据你实际情况调整）。如下：
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/10.FrontPage.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/10.FrontPage.jpg)
 
 IPSec VPN的Docker镜像并没有装载到固件中，需要进行下载。IPSecVPN Server Docker 版本内置了下载器。下载器默认会从GitHub上进行下载（大约66M）。也可以尝试使用`docker pull xiaoqingfeng999/strongswan:5.8.4`命令，从DockerHub中央仓库下载。
 
@@ -39,17 +39,17 @@ IPSec VPN的Docker镜像并没有装载到固件中，需要进行下载。IPSec
 
 注意：操作前，请设置好Docker根目录，保证Docker根目录有足够空间。Docker根目录不应使用固件内置空间。确认空间方法，请参考下图。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/20.ConfirmDockerRootPath.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/20.ConfirmDockerRootPath.jpg)
 
 现在演示使用IPSec VPN 服务器Docker版镜像下载器下载镜像的过程。
 
 点击“启动下载”等候几秒，确认下载器提示“正在下载”，下方的日志窗内开始滚动下载进度。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/30.StartImageDownload.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/30.StartImageDownload.jpg)
 
 如果顺利，镜像会自动加到Docker镜像库，此时IPSec VPN 服务器Docker版状态不再提示“IPSec VPN Docker镜像不存在”，而是“未运行”，镜像下载器会自动隐藏。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/40.ImgDownloadSucc.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/40.ImgDownloadSucc.jpg)
 
 接下来介绍开启IKEv2连接，实现Windows10接入方法。
 
@@ -59,17 +59,17 @@ Windows10 要求VPN服务端具备证书，证书需要关联在域名上。因�
 
 目前免费证书均会按照服务器类型提供证书文件，通常选择Apache格式即可。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/50 Select Certificate.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/50SelectCertificate.jpg)
 
 打开Apache证书目录，其中ca_bundle.crt是证书签发机构的证书，此外还会根据你申请的域名，有两个文件，类似下图中的home开头的两个文件。其中。“域名-数字.crt”是你的域名证书，“域名-数字_key.key”是你域名证书的私钥。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/60 change centificate name.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/60changecentificatename.jpg)
 
 将你的域名证书改名为SERVER.crt（注意大小写），证书私钥改名为KEY.key。
 
 将证书上传到路由。其中ca_bundle.crt上传到/etc/strongswanInDocker/ipsec.d/cacerts，SERVER.crt上传到/etc/strongswanInDocker/ipsec.d/certs，KEY.key上传到/etc/strongswanInDocker/ipsec.d/private。目录不存在请创建。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/65 upload centificates.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/65uploadcentificates.jpg)
 
 **开启防火墙**
 
@@ -81,30 +81,30 @@ Windows10 要求VPN服务端具备证书，证书需要关联在域名上。因�
 
 按照下图勾选相应选项，确认VPN客户端使用的DNS服务器指向了当前网络内主DNS。如果HomeLede是主路由，也是主DNS，则应该“填入当前路由IP”。IKEv2下面，在“当前路由域名”中，填写你的域名（通常是DDNS域名），需要和上一步骤中上传证书中域名一致。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/75 StartServer.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/75StartServer.jpg)
 
 最后，点击“保存&应用”。最后确认服务状态为“运行中”。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/80 Confirm Running.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/80 Confirm Running.jpg)
 
 IPSecVPN用户名和密码，可以在“接入用户管理界面设置”。全部设置变更后，需要重启IPSecVPN服务器生效（取消勾选“启用”，“保存&应用”可以停止服务器，再次勾选可启动）。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/81 UserManage.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/81UserManage.jpg)
 
 **测试Windows10接入**
 
 左下角开始，设置，打开“Windows设置”，点击“网络和Internet”。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/84 ControlPanel.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/84ControlPanel.jpg)
 
 随后点击左侧“VPN”，右上点击“添加VPN连接”。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/85 VPN Entry.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/85VPNEntry.jpg)
 
 连接详情页面，“服务器名称或地址”填入之前设置IPSec服务端的域名。“VPN类型”选择“IKEv2”，填入用户名密码。最后，保存。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/86 Add IKEv2 Connection.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/86AddIKEv2Connection.jpg)
 
 设置完毕后，VPN连接会出现在Windows10的连接列表里，开始菜单栏右侧，点击“网络连接”图标，弹出窗口中找到你上一个步骤填写的“连接名称”，点击即可开始连接或者断开。
 
-![](https://raw.githubusercontent.com/wiki/xiaoqingfengATGH/HomeLede/strongswanInDocker/87 Start Connect.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/87StartConnect.jpg)
