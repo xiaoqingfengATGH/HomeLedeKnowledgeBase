@@ -19,6 +19,8 @@
   + 支持自定义VPN客户端DNS
   + 支持与Clash、PSW协同工作，可实现VPN客户端共享家庭分流环境
 
+    **IPSecVPN 应用方法请参考 -> [HomeLede IPSec VPN使用说明](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8IPSecVPN%E5%AE%9E%E7%8E%B0%E5%A4%9A%E7%AB%AF%E6%8E%A5%E5%85%A5%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C)**
+
 + dropbear支持ed25519密钥
 
 + docker升级至19.03.9
