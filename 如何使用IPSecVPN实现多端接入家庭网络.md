@@ -75,7 +75,7 @@ Windows10 要求VPN服务端具备证书，证书需要关联在域名上。因�
 
 防火墙上允许4500与500端口入站，均是UDP协议。
 
-![](./strongswanInDocker/70 OpenFirewallPorts.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/70OpenFirewallPorts.jpg)
 
 **启动IPSecVPN Server**
 
@@ -85,7 +85,7 @@ Windows10 要求VPN服务端具备证书，证书需要关联在域名上。因�
 
 最后，点击“保存&应用”。最后确认服务状态为“运行中”。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/80 Confirm Running.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/strongswanInDocker/80ConfirmRunning.jpg)
 
 IPSecVPN用户名和密码，可以在“接入用户管理界面设置”。全部设置变更后，需要重启IPSecVPN服务器生效（取消勾选“启用”，“保存&应用”可以停止服务器，再次勾选可启动）。
 
