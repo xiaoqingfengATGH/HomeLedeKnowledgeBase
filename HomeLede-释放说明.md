@@ -17,6 +17,8 @@
 - PSW内置规则更新至最新
 - HomeClash默认不启动UDP转发
 
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/10.global_dark_theme.png)
+
 #### **驱动**
 
 + 支持RTL8125B 2.5G网卡
