@@ -13,7 +13,7 @@
 #### **优化及缺陷修正**
 
 - PSec VPN Server Docker版升级，修正接入用户管理无效的缺陷
-- PSW首页适配暗黑风格
+- PSW首页适配暗黑风格（见下图）
 - PSW内置规则更新至最新
 - HomeClash默认不启动UDP转发
 
