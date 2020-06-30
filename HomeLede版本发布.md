@@ -13,6 +13,8 @@
 
 Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
 
+**正式版本**
+
 **HomeLede2020.06.20**
 
 百度网盘：https://pan.baidu.com/s/1Qx_ZidS_rEGJL5efUXhXEg 提取码：vs49
