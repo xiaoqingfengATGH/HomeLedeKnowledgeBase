@@ -1,18 +1,15 @@
 
 
-## HomeLede 版本大全
+## HomeLede 版本发布地址集合
 
 ### 主版本：适用于x86_64软路由
 
-v2020.06.20
-
-#### 开发中间版本
-
-v2020.06.27
+正式发布（Release）：v2020.06.20
+开发阶段性版本（Snapshot）：v2020.06.27
 
 ### 下载位置
 
-**正式版级开发中间版本**
+**正式版及开发中间版本**
 
 Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
 
