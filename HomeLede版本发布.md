@@ -1,20 +1,19 @@
 
 
-## HomeLede 版本大全
+## HomeLede 版本发布地址集合
 
 ### 主版本：适用于x86_64软路由
 
-v2020.06.20
-
-#### 开发中间版本
-
-v2020.06.27
++ 正式发布（Release）：v2020.06.20
++ 开发阶段性版本（Snapshot）：v2020.06.27
 
 ### 下载位置
 
-**正式版级开发中间版本**
+**正式版及开发中间版本**
 
 Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
+
+**正式版本**
 
 **HomeLede2020.06.20**
 
@@ -30,25 +29,25 @@ Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscK
 
 **HomeLede2020.05.10**
 
-百度网盘：链接：https://pan.baidu.com/s/1lukS8nWTBYIlGDSlozfymg提取码：66g3 
+百度网盘：链接：https://pan.baidu.com/s/1lukS8nWTBYIlGDSlozfymg 提取码：66g3 
 
 天翼云盘：https://cloud.189.cn/t/IbEzMrimUnqa (访问码:  joe8) 
 
 **HomeLede2020.04.29**
 
-百度网盘：https://pan.baidu.com/s/1ckYuQCgkkRe2a4_29xbghQ提取码：dv6a 
+百度网盘：https://pan.baidu.com/s/1ckYuQCgkkRe2a4_29xbghQ 提取码：dv6a 
 
 天翼云盘：https://cloud.189.cn/t/MnaIVr7vAFzq (访问码:  h1h7) 
 
 **HomeLede2020.04.19**
 
-百度网盘：https://pan.baidu.com/s/11a7zYEWdLXgpB6EaTp07Pw提取码：2who 
+百度网盘：https://pan.baidu.com/s/11a7zYEWdLXgpB6EaTp07Pw 提取码：2who 
 
 天翼云盘：https://cloud.189.cn/t/36f2aiB7ZnI3 (访问码: o8w2) 
 
 **HomeLede2020.04.12**
 
-百度网盘：https://pan.baidu.com/s/1XtyD8eBtjsXVkUAzGqLjgw提取码：dqwd 
+百度网盘：https://pan.baidu.com/s/1XtyD8eBtjsXVkUAzGqLjgw 提取码：dqwd 
 
 天翼云盘https://cloud.189.cn/t/VvQJR3R7zQ3q (访问码:  ogw6) 
 
