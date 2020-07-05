@@ -1,4 +1,55 @@
-### v2020.06.27(开发中间版本，非正式发布)
+### v2020.07.05(DEV)
+
+**重大升级：内核升级至v5.4.48**
+
+- 除Luci外，其他软件源全部适配至 openwrt 开发分支
+- 变更代码超过全部代码70%
+- 跨代升级会获得许多好处，也会带来一些潜在问题，需要一段时间慢慢发现调整。
+- HomeLede 自行维护的软件源，以及HomeLede固件内置的方案已经初步完成了适配，目前已经可以在v5.x内核版本工作。
+- HomeLede 源码仓库主分支（master）仍旧是4.19.123内核，最后一个tag v2020.07.02是最近验证编译通过的v4.19.123版本
+- HomeLede v5.x内核源码由k5分支维护，待v5.x分支稳定后，会合并回master分支
+
+#### **内置组件升级**
+
+**Passwall凤凰涅槃，重新回归！升级至3.9-4 xiaoqingfengMod  20200705**
+
++ 支持直接使用HomeLede内置海内外分流解析
++ 支持劫持Dnsmasq上游
++ 优化tcping逻辑
++ socks节点可选择同tcp节点
++ 修复passwall服务端初始化问题
++ 优化passwall订阅脚本
++ 适配HomeLede暗黑系风格界面
+
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/v20200705.png)
+
+KCPTUN 升级至v20200701
+
+miniupnpd 升级至 2.1.20200510-2
+
+mwan3升级至2.87-1
+
+dropbear升级至2020.80-1
+
+dnscrypt升级至2.0.44
+
+docker-ce升级至19.03.12
+
+ttyd升级至1.6.0-2
+
+luci-app-ttyd升级至1.0-3
+
+sqm-scripts升级至1.4.0-8
+
+#### **软件包**
+
+SSR+ 升级至 20200702
+
+#### **优化及缺陷修正**
+
+- IPSec VPN Server 可完美与各种分流软件共存（无需Docker版本，替刚开发的Docker版本默哀...）
+
+### v2020.06.27(DEV：开发中间版本，非正式发布)
 
 #### **内置组件升级**
 
@@ -12,7 +63,7 @@
 
 #### **优化及缺陷修正**
 
-- PSec VPN Server Docker版升级，修正接入用户管理无效的缺陷
+- IPSec VPN Server Docker版升级，修正接入用户管理无效的缺陷
 - PSW首页适配暗黑风格（见下图）
 - PSW内置规则更新至最新
 - HomeClash默认不启动UDP转发
