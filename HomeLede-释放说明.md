@@ -1,6 +1,6 @@
 ### v2020.07.05(DEV) 
 
-[版本下载]: https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83
+[版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
 
 **重大升级：内核升级至v5.4.48**
 
