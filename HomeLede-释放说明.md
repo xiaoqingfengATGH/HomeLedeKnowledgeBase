@@ -1,4 +1,6 @@
-### v2020.07.05(DEV)
+### v2020.07.05(DEV) 
+
+[版本下载]: https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83
 
 **重大升级：内核升级至v5.4.48**
 
@@ -20,8 +22,11 @@
 + 修复passwall服务端初始化问题
 + 优化passwall订阅脚本
 + 适配HomeLede暗黑系风格界面
++ 支持使用v2ray 实现分流
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/v20200705.png)
+
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/20.v2ray_shunt.png)
 
 KCPTUN 升级至v20200701
 
