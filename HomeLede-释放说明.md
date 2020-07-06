@@ -1,8 +1,8 @@
-### v2020.07.05(DEV) 
+### v2020.07.06(DEV) 
 
 [版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
 
-**重大升级：内核升级至v5.4.48**
+**重大升级：内核升级至v5.4.50**
 
 - 除Luci外，其他软件源全部适配至 openwrt 开发分支
 - 变更代码超过全部代码70%
@@ -13,42 +13,47 @@
 
 #### **内置组件升级**
 
-**Passwall凤凰涅槃，重新回归！升级至3.9-4 xiaoqingfengMod  20200705**
-
-+ 支持直接使用HomeLede内置海内外分流解析
-+ 支持劫持Dnsmasq上游
-+ 优化tcping逻辑
-+ socks节点可选择同tcp节点
-+ 修复passwall服务端初始化问题
-+ 优化passwall订阅脚本
-+ 适配HomeLede暗黑系风格界面
-+ 支持使用v2ray 实现分流
++ **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-7  20200706
+  + 支持直接使用HomeLede内置海内外分流解析
+  + 支持劫持Dnsmasq上游
+  + 优化tcping逻辑
+  + socks节点可选择同tcp节点
+  + 修复passwall服务端初始化问题
+  + 优化passwall订阅脚本
+  + 适配HomeLede暗黑系风格界面
+  + 支持使用v2ray 实现分流
+  + 使用trojan plus作为trojan底层支持
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/v20200705.png)
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/20.v2ray_shunt.png)
 
-KCPTUN 升级至v20200701
++ KCPTUN 升级至v20200701
 
-miniupnpd 升级至 2.1.20200510-2
++ miniupnpd 升级至 2.1.20200510-2
 
-mwan3升级至2.87-1
++ mwan3升级至2.87-1
 
-dropbear升级至2020.80-1
++ dropbear升级至2020.80-1
 
-dnscrypt升级至2.0.44
++ dnscrypt升级至2.0.44
 
-docker-ce升级至19.03.12
++ docker-ce升级至19.03.12
 
-ttyd升级至1.6.0-2
++ ttyd升级至1.6.0-2
 
-luci-app-ttyd升级至1.0-3
-
-sqm-scripts升级至1.4.0-8
++ luci-app-ttyd升级至1.0-3
++ sqm-scripts升级至1.4.0-8
++ kmod-shortcut-fe 高通开源 转发加速
++ v2ray升级至 4.26.0
 
 #### **软件包**
 
-SSR+ 升级至 20200702
++ SSR+ 升级至 20200706
+
++ 网易云音乐解锁 Go 版本，也可以选择高音质了
+
++ qBittorrent 升级到 v4.2.5
 
 #### **优化及缺陷修正**
 
