@@ -13,7 +13,7 @@
 
 #### **内置组件升级**
 
-+ **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-7  20200706
++ **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-7  20200706**
   + 支持直接使用HomeLede内置海内外分流解析
   + 支持劫持Dnsmasq上游
   + 优化tcping逻辑
