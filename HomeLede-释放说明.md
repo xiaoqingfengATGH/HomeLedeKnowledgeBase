@@ -1,4 +1,4 @@
-### v2020.07.06(DEV) 
+### v2020.07.07(DEV) 
 
 [版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
 
@@ -23,6 +23,7 @@
   + 适配HomeLede暗黑系风格界面
   + 支持使用v2ray 实现分流
   + 使用trojan plus作为trojan底层支持
+  + 支持trojan go
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/v20200705.png)
 
@@ -58,6 +59,8 @@
 #### **优化及缺陷修正**
 
 - IPSec VPN Server 可完美与各种分流软件共存（无需Docker版本，替刚开发的Docker版本默哀...）
+- CPU 评分算法更新
+- 修复 CPU 温度显示及调整显示内容
 
 ### v2020.06.27(DEV：开发中间版本，非正式发布)
 
