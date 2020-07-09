@@ -1,4 +1,4 @@
-### v2020.07.07(DEV) 
+### v2020.07.09(DEV) 
 
 [版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
 
@@ -13,7 +13,12 @@
 
 #### **内置组件升级**
 
++ dnsmasq-china-list 升级至 1.0-6
+  
+  支持从国内源更新配置，支持下载配置完整性校验，规避配置文件下载不完整导致dnsmasq异常
+  
 + **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-7  20200706**
+  
   + 支持直接使用HomeLede内置海内外分流解析
   + 支持劫持Dnsmasq上游
   + 优化tcping逻辑
@@ -22,39 +27,32 @@
   + 优化passwall订阅脚本
   + 适配HomeLede暗黑系风格界面
   + 支持使用v2ray 实现分流
-  + 使用trojan plus作为trojan底层支持
   + 支持trojan go
+  + 支持trojan plus
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/v20200705.png)
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/20.v2ray_shunt.png)
 
 + KCPTUN 升级至v20200701
-
-+ miniupnpd 升级至 2.1.20200510-2
-
++ miniupnpd 升级至 2.1.20200510-5
 + mwan3升级至2.87-1
-
 + dropbear升级至2020.80-1
-
 + dnscrypt升级至2.0.44
-
-+ docker-ce升级至19.03.12
-
++ docker-ce升级至19.03.12-2
 + ttyd升级至1.6.0-2
-
 + luci-app-ttyd升级至1.0-3
 + sqm-scripts升级至1.4.0-8
 + kmod-shortcut-fe 高通开源 转发加速
 + v2ray升级至 4.26.0
++ 增加snmpd 5.8-1 （解决做旁路由时，爱快显示mac地址冲突问题）
 
 #### **软件包**
 
-+ SSR+ 升级至 20200706
-
++ SSR+ 升级至 20200709
 + 网易云音乐解锁 Go 版本，也可以选择高音质了
-
 + qBittorrent 升级到 v4.2.5
++ luci-app-serverchan 升级至1.78-8
 
 #### **优化及缺陷修正**
 
