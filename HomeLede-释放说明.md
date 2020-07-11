@@ -1,15 +1,50 @@
-### v2020.07.09(DEV) 
+### v2020.07.11(DEV) 
 
 [版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
 
 **重大升级：内核升级至v5.4.50**
 
 - 除Luci外，其他软件源全部适配至 openwrt 开发分支
+
 - 变更代码超过全部代码70%
+
 - 跨代升级会获得许多好处，也会带来一些潜在问题，需要一段时间慢慢发现调整。
+
 - HomeLede 自行维护的软件源，以及HomeLede固件内置的方案已经初步完成了适配，目前已经可以在v5.x内核版本工作。
+
 - HomeLede 源码仓库主分支（master）仍旧是4.19.123内核，最后一个tag v2020.07.02是最近验证编译通过的v4.19.123版本
+
 - HomeLede v5.x内核源码由k5分支维护，待v5.x分支稳定后，会合并回master分支
+
+- 已验证正常工作功能（欢迎补充反馈）：
+
+  - 综合DNS方案：AdGuardHome、dnsmasq（附带dnsmasq-china-list加速脚本）、chinadns-ng、smartdns、dnscrypt-proxy2
+
+  - UPnP - 摄像头、Steam、BitComet、迅雷X、电驴
+
+  - Docker
+
+  - DDNS - noip.com 、dnspod.cn 正常
+
+  - SSH - 密码、Ed25519、Sftp
+
+  - Passwall - VPS + HomeLede内置海内外解析模式 + 访问控制  + 黑白名单
+
+  - PPPoE 拨号
+
+  - 单线多拨
+
+  - 多拨负载均衡（mwan3）
+
+  - 防火墙 - 端口转发（至内网主机、TCP及UDP）、端口开放
+
+  - 定时任务
+
+  - Turbo ACC 网络加速
+
+    ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/v5Test/10.UPnP1.jpg)
+
+    ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/v5Test/10.UPnP2.jpg)
 
 #### **内置组件升级**
 
@@ -57,6 +92,8 @@
 #### **优化及缺陷修正**
 
 - IPSec VPN Server 可完美与各种分流软件共存（无需Docker版本，替刚开发的Docker版本默哀...）
+- docker-ce 移除iptables规则时不会输出错误信息
+- docker-ce 无法使用预置配置
 - CPU 评分算法更新
 - 修复 CPU 温度显示及调整显示内容
 
