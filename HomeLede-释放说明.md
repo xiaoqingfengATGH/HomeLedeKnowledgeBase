@@ -30,6 +30,8 @@
 
   - Passwall - VPS + HomeLede内置海内外解析模式 + 访问控制  + 黑白名单
 
+  - IPSec VPN − ikev1 苹果手机，ikev2 win10，与passwall协同工作
+
   - PPPoE 拨号
 
   - 单线多拨
