@@ -22,15 +22,15 @@
 
   - UPnP - 摄像头、Steam、BitComet、迅雷X、电驴
 
-  - Docker
+  - Docker 以及图形界面
 
   - DDNS - noip.com 、dnspod.cn 正常
 
-  - SSH - 密码、Ed25519、Sftp
+  - SSH - 密码、Ed25519认证、Sftp传输文件
 
   - Passwall - VPS + HomeLede内置海内外解析模式 + 访问控制  + 黑白名单
 
-  - IPSec VPN − ikev1 苹果手机，ikev2 win10，与passwall协同工作
+  - IPSec VPN − ikev1 苹果、安卓接入（不使用家庭网络IP地址），ikev2 win10，与passwall协同工作
 
   - PPPoE 拨号
 
