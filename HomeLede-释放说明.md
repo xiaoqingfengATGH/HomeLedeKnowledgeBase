@@ -41,6 +41,8 @@
   - 防火墙 - 端口转发（至内网主机、TCP及UDP）、端口开放
 
   - 定时任务
+  
+  - 挂载 SMB/CIFS 网络共享文件夹，命令行mount.cifs
 
   - Turbo ACC 网络加速
 
