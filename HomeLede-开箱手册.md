@@ -2,7 +2,7 @@
 
 [版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
 
-[释放说明点这里]([https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E9%87%8A%E6%94%BE%E8%AF%B4%E6%98%8E](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-释放说明))
+[释放说明点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E9%87%8A%E6%94%BE%E8%AF%B4%E6%98%8E)
 
 **固件设计思路：最大程度简化使用HomeLede作为家庭网络主路由、通过PPPoE拨号上网等最典型使用场景配置，实现开箱即用**
 
@@ -58,4 +58,5 @@
 
 - Clash
 
-  [点这里参考Clash快速开启指南]([https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-20200527-Clash%E9%A2%84%E8%A7%88%E7%89%88--%E5%BF%AB%E9%80%9FClash%E5%BC%80%E5%90%AF%E8%AF%B4%E6%98%8E](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-20200527-Clash预览版--快速Clash开启说明))
+  [点这里参考Clash快速开启指南](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-20200527-Clash%E9%A2%84%E8%A7%88%E7%89%88--%E5%BF%AB%E9%80%9FClash%E5%BC%80%E5%90%AF%E8%AF%B4%E6%98%8E)
+
