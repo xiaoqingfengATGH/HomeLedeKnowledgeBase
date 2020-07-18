@@ -1,63 +1,61 @@
-### v2020.07.11(DEV) 
+### v2020.07.18
 
 [版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
+[快速设置指南](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E5%BC%80%E7%AE%B1%E6%89%8B%E5%86%8C)
 
 **重大升级：内核升级至v5.4.50**
 
-- 除Luci外，其他软件源全部适配至 openwrt 开发分支
-
-- 变更代码超过全部代码70%
-
-- 跨代升级会获得许多好处，也会带来一些潜在问题，需要一段时间慢慢发现调整。
-
-- HomeLede 自行维护的软件源，以及HomeLede固件内置的方案已经初步完成了适配，目前已经可以在v5.x内核版本工作。
-
+- 重大升级，请重新刷机
 - HomeLede 源码仓库主分支（master）仍旧是4.19.123内核，最后一个tag v2020.07.02是最近验证编译通过的v4.19.123版本
+- HomeLede v5.x内核源码由k5分支维护
 
-- HomeLede v5.x内核源码由k5分支维护，待v5.x分支稳定后，会合并回master分支
+已验证正常工作功能（欢迎补充反馈）
 
-- 已验证正常工作功能（欢迎补充反馈）：
+- 综合DNS方案：AdGuardHome、dnsmasq（附带dnsmasq-china-list加速脚本）、chinadns-ng、smartdns、dnscrypt-proxy2
 
-  - 综合DNS方案：AdGuardHome、dnsmasq（附带dnsmasq-china-list加速脚本）、chinadns-ng、smartdns、dnscrypt-proxy2
+- UPnP - 摄像头、Steam、BitComet、迅雷X、电驴
 
-  - UPnP - 摄像头、Steam、BitComet、迅雷X、电驴
+- Docker 以及图形界面
 
-  - Docker 以及图形界面
+- DDNS - noip.com 、dnspod.cn 正常
 
-  - DDNS - noip.com 、dnspod.cn 正常
+- SSH - 密码、Ed25519认证、Sftp传输文件
 
-  - SSH - 密码、Ed25519认证、Sftp传输文件
+- Passwall - VPS + HomeLede内置海内外解析模式 + 访问控制  + 黑白名单
 
-  - Passwall - VPS + HomeLede内置海内外解析模式 + 访问控制  + 黑白名单
+- HomeClash - VPS
 
-  - IPSec VPN − ikev1 苹果、安卓接入（不使用家庭网络IP地址），ikev2 win10，与passwall协同工作
+- IPSec VPN − ikev1 苹果、安卓接入（不使用家庭网络IP地址），ikev2 win10，与passwall协同工作
 
-  - PPPoE 拨号
+- PPPoE 拨号
 
-  - 单线多拨
+- 单线多拨
 
-  - 多拨负载均衡（mwan3）
+- 多拨负载均衡（mwan3）
 
-  - 防火墙 - 端口转发（至内网主机、TCP及UDP）、端口开放
+- 防火墙 - 端口转发（至内网主机、TCP及UDP）、端口开放
 
-  - 定时任务
-  
-  - 挂载 SMB/CIFS 网络共享文件夹，命令行mount.cifs
+- 定时任务
 
-  - Turbo ACC 网络加速
+- 挂载 SMB/CIFS 网络共享文件夹，命令行mount.cifs
 
-    ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/v5Test/10.UPnP1.jpg)
+- Turbo ACC 网络加速
 
-    ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/v5Test/10.UPnP2.jpg)
+  ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/v5Test/10.UPnP1.jpg)
 
-#### **内置组件升级**
+  ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/v5Test/10.UPnP2.jpg)
+
+#### 内置组件
 
 + dnsmasq-china-list 升级至 1.0-6
-  
-  支持从国内源更新配置，支持下载配置完整性校验，规避配置文件下载不完整导致dnsmasq异常
-  
-+ **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-7  20200706**
-  
+
+  支持从国内源更新配置，支持下载配置完整性校验，彻底规避配置文件下载不完整导致dnsmasq异常
+
++ smartdns 升级至 Release31-20200712
+
+  增加了4组国内非UDP 53 DNS服务器
+
++ **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-19  20200717
   + 支持直接使用HomeLede内置海内外分流解析
   + 支持劫持Dnsmasq上游
   + 优化tcping逻辑
@@ -69,22 +67,26 @@
   + 支持trojan go
   + 支持trojan plus
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/v20200705.png)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/v20200718.jpg)
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/20.v2ray_shunt.png)
 
++ HomeClash 升级至 v2020.07.18
 + KCPTUN 升级至v20200701
 + miniupnpd 升级至 2.1.20200510-5
 + mwan3升级至2.87-1
 + dropbear升级至2020.80-1
 + dnscrypt升级至2.0.44
 + docker-ce升级至19.03.12-2
++ luci-app-dockerman 升级至 2020.07.16
 + ttyd升级至1.6.0-2
 + luci-app-ttyd升级至1.0-3
 + sqm-scripts升级至1.4.0-8
-+ kmod-shortcut-fe 高通开源 转发加速
++ 增加kmod-shortcut-fe 高通开源 转发加速
 + v2ray升级至 4.26.0
++ trojan 升级至0.81
 + 增加snmpd 5.8-1 （解决做旁路由时，爱快显示mac地址冲突问题）
++ 增加wiredguard
 
 #### **软件包**
 
@@ -92,6 +94,7 @@
 + 网易云音乐解锁 Go 版本，也可以选择高音质了
 + qBittorrent 升级到 v4.2.5
 + luci-app-serverchan 升级至1.78-8
++ frps增加ACL，兼容最新LUCI标准
 
 #### **优化及缺陷修正**
 
@@ -100,27 +103,9 @@
 - docker-ce 无法使用预置配置
 - CPU 评分算法更新
 - 修复 CPU 温度显示及调整显示内容
-
-### v2020.06.27(DEV：开发中间版本，非正式发布)
-
-#### **内置组件升级**
-
-分流底层组件升级
-
-+ v2ray 4.25.1
-
-#### **软件包**
-
-+ frps增加ACL，兼容最新LUCI标准
-
-#### **优化及缺陷修正**
-
 - IPSec VPN Server Docker版升级，修正接入用户管理无效的缺陷
-- PSW首页适配暗黑风格（见下图）
-- PSW内置规则更新至最新
 - HomeClash默认不启动UDP转发
-
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/PSW/10.global_dark_theme.png)
+- PSW 订阅错误
 
 #### **驱动**
 

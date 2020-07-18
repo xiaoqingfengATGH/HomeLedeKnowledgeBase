@@ -4,8 +4,8 @@
 
 ### 主版本：适用于x86_64软路由
 
-+ 正式发布（Release）：v2020.06.20
-+ 开发阶段性版本（Snapshot）：v2020.07.11 **（重大升级 内核升级至v5.4.50）**
++ 正式发布（Release）：v2020.07.18 （内核v5.4.50）
++ 开发阶段性版本（Snapshot）：N/A
 
 ### 下载位置
 
@@ -15,7 +15,13 @@ Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscK
 
 **正式版本**
 
-**HomeLede2020.06.20**
+**HomeLede2020.07.18**（内核：5.4.50）
+
+百度网盘：链接：https://pan.baidu.com/s/1rkaC94rbCFT7Y6r9TgAjDQ 提取码：3bl8
+
+天翼云盘：https://cloud.189.cn/t/eYJvuuIBn2Ev  (访问码 : nay8 )
+
+**HomeLede2020.06.20**（内核：4.9.123）
 
 百度网盘：https://pan.baidu.com/s/1Qx_ZidS_rEGJL5efUXhXEg 提取码：vs49
 
