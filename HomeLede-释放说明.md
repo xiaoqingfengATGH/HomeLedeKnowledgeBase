@@ -55,7 +55,8 @@
 
   增加了4组国内非UDP 53 DNS服务器
 
-+ **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-19  20200717
++ **Passwall凤凰涅槃，重新回归！升级至3.9-xiaoqingfengMod-19  20200717**
+  
   + 支持直接使用HomeLede内置海内外分流解析
   + 支持劫持Dnsmasq上游
   + 优化tcping逻辑
