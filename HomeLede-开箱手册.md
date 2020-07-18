@@ -34,7 +34,7 @@
 
 1 **填入你ISP的DNS**。固件国内DNS解析采用的是最著名的4个公共DNS外加一个ISP的DNS的方式。可以打开SMARTDNS配置界面，将“CN-ISP #1”项目对应的IP修改成你ISP的主DNS地址。如果不想使用ISP的DNS，直接将这个项目前的的勾取消即可。操作完毕不要忘记点击页面右下角的“保存&应用”生效。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/DNS/DNS_SETTING_1.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/DNS_SETTING_1.jpg)
 
 2 **尝试启用非常规国内DNS解析**。如果你的ISP有非常严重的DNS劫持（典型，移动宽带，移动已经实现了全网DNS拦截），换句话说，在严重劫持环境下，普通DNS设置基本可以视为无效（所有发出的送往UDP 53端口的DNS请求都会被ISP统一拦截，并返回运营商预置的结果）。如果你厌恶这种行为，或者ISP的DNS解析结果影响了你的网络访问，可以考虑将固件国内DNS解析方式进行切换，规避ISP劫持。
 
@@ -44,7 +44,7 @@
 
 同样，如果切换了DNS，不要忘记点击页面右下角的“保存&应用”生效。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/DNS/DNS_SETTING_2.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/DNS_SETTING_2.jpg)
 
 
 
@@ -54,7 +54,7 @@
 
   配置好节点，在Passwall首页，设置好TCP节点，其他保持固件默认（如下）即可。
 
-  ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/DNS/DNS_SETTING_3_PSW.jpg)
+  ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/DNS_SETTING_3_PSW.jpg)
 
 - Clash
 
