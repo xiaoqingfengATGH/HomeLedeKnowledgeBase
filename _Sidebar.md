@@ -2,8 +2,8 @@
 
 * [快速设置指南](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E5%BC%80%E7%AE%B1%E6%89%8B%E5%86%8C)
     * [修改路由IP](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E5%BC%80%E7%AE%B1-%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C-%E4%BF%AE%E6%94%B9%E8%B7%AF%E7%94%B1IP)
-    * [安装软件](https://github.com/onevcat/Kingfisher/wiki/Cheat-Sheet#cache)
-	* [无法上网怎么查](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E6%BC%AB%E8%B0%88%E5%8E%BB%E5%B9%BF%E5%91%8A%EF%BC%8C%E5%8E%9F%E7%90%86%E5%8F%8A%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97)
+    * [安装软件](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E5%BC%80%E7%AE%B1-%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C-%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6)
+	* [无法上网怎么查](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E6%97%A0%E6%B3%95%E4%B8%8A%E7%BD%91%E6%8E%92%E6%9F%A5%E5%AE%9D%E5%85%B8)
 
 ## 版本一览
 
