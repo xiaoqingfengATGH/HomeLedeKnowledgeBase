@@ -1,7 +1,6 @@
-# Welcome to the HomeLede wiki!
-# 欢迎来到HomeLede wiki。
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/Wiki_Logo.png)
 
-HomeLede致力于打造一款适合家庭使用，稳定，可靠，简单易用的软路由固件。
+> #### 一款适合家庭使用，稳定，可靠，简单易用的软路由固件。
 
 HomeLede基于Openwrt构建，吸收社区中众多开源作者的作品，同时自行维护一系列应用以及解决方案，并将它们整合后一同应用于固件中。欢迎认同固件理念，并且喜欢软路由的发烧友，爱好者加入，共同实现固件目标。
 
@@ -33,7 +32,7 @@ HomeLede基于Openwrt构建，吸收社区中众多开源作者的作品，同�
 + 提供视觉效果较好的原创主题infinityfreedom
 
 ## 固件最新版本 
-v2020.05.10
+v2020.07.18
 
-## 获取版本地址
-链接：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
+## 获取版本
+[版本发布地址合集](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
