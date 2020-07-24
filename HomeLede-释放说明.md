@@ -10,11 +10,14 @@
 两个版本软件包组成完全相同，部分软件包版本略有差异。
 
 #### 内置组件
++ AdGuardHome 升级至v0.103.2
 + 内置分流链接转换器升级版本subweb-> 20200702 subconvert-> 0.6.1-9f67b90
 + 多线负载均衡 mwan3 升级至2.8.11
 + 新增简约风格主题luci-theme-edge
 + docker-ce升级至19.03.12-3，修正docker-ce不能自启动问题
 + passwall升级至3.9-xiaoqingfengMod-21 20200723
+  - 界面更新
+  - brook: bump to v20200701
 + clash支持ssr，随机内核升级至2020.07.24最新
 
 #### 软件包
