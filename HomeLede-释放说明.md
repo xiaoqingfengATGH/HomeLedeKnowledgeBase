@@ -1,7 +1,28 @@
-### v2020.07.18
-
 [版本下载点这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83)
+
 [快速设置指南](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E5%BC%80%E7%AE%B1%E6%89%8B%E5%86%8C)
+
+### v2020.07.24（测试版）
+本次释放两个内核版本：
+- 基于7月初v4内核主代码，内核升级至4.19.134，配合HomeLede截止2020.07.24最新软件包（对应于HomeLede源码仓库master分支）
+- 基于近期v5内核主代码，内核升级至5.4.51,配合HomeLede截止2020.07.24最新软件包（对应于HomeLede源码仓库k5分支）
+
+两个版本软件包组成完全相同，部分软件包版本略有差异。
+
+#### 内置组件
++ 内置分流链接转换器升级版本subweb-> 20200702 subconvert-> 0.6.1-9f67b90
++ 多线负载均衡 mwan3 升级至2.8.11
++ 新增简约风格主题luci-theme-edge
++ docker-ce升级至19.03.12-3，修正docker-ce不能自启动问题
++ passwall升级至3.9-xiaoqingfengMod-21 20200723
++ clash支持ssr，随机内核升级至2020.07.24最新
+
+#### 软件包
++ ssr-plus升级至2020.07.24
+
+
+
+### v2020.07.18
 
 **重大升级：内核升级至v5.4.50**
 
