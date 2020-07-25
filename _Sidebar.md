@@ -18,6 +18,8 @@
 	* [Clash快开指南](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-20200527-Clash%E9%A2%84%E8%A7%88%E7%89%88--%E5%BF%AB%E9%80%9FClash%E5%BC%80%E5%90%AF%E8%AF%B4%E6%98%8E)
 	* [Clash不同模式下DNS的行为](https://github.com/xiaoqingfengATGH/HomeLede/wiki/Clash%E4%B8%8D%E5%90%8C%E8%BF%90%E8%A1%8C%E6%A8%A1%E5%BC%8F%E4%B8%8BDNS%E7%9A%84%E8%A1%8C%E4%B8%BA)
 * [DNS套件里有啥](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-20200527-DNS%E6%96%B9%E6%A1%88%E8%AF%B4%E6%98%8E)
+* 魔盒
+  * [VLMCSD](https://github.com/xiaoqingfengATGH/HomeLede/wiki/玩转HomeLede-VLMCSD)
 * [撩撩去广告](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E6%BC%AB%E8%B0%88%E5%8E%BB%E5%B9%BF%E5%91%8A%EF%BC%8C%E5%8E%9F%E7%90%86%E5%8F%8A%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97)
 * [懒人升级](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede%E6%87%92%E4%BA%BA%E5%8D%87%E7%BA%A7%E6%8C%87%E5%8D%97)
 
