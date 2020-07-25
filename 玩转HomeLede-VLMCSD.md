@@ -1,6 +1,6 @@
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/\immerse/vlmcsd.png)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/immerse/vlmcsd.png)
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/\immerse/vlmcsd_luci.png)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/immerse/vlmcsd_luci.png)
 
 使用前提：
 
@@ -42,9 +42,9 @@ slmgr.vbs /ato
 
 参考效果：
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/\immerse/vlmcsd_win10.png)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/immerse/vlmcsd_win10.png)
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/\immerse/vlmcsd_win10_2.png)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/immerse/vlmcsd_win10_2.png)
 
 ### Office
 
