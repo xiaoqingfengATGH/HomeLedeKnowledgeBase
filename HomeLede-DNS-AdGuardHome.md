@@ -20,7 +20,7 @@
 
 首页，左上角接近Logo处，有”禁用保护“字样，点击即可禁用广告过滤，再次点击会打开。
 
-![](D:\Router\SRCS\xiaoqingfeng\HomeLede.wiki\DNS\AdGuardHome1.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/DNS/AdGuardHome1.jpg)
 
 #### 如何调整规则库
 
@@ -28,14 +28,14 @@
 
 启用状态规则，点击“检查更新”时才会更新。
 
-![](D:\Router\SRCS\xiaoqingfeng\HomeLede.wiki\DNS\AdGuardHome2.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/DNS/AdGuardHome2.jpg)
 
 #### 如何解除部分域名拦截（应对误杀）
 
-![](D:\Router\SRCS\xiaoqingfeng\HomeLede.wiki\DNS\AdGuardHome3.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/DNS/AdGuardHome3.jpg)
 
 #### 判断某站点是否被AdGuardHome拦截
 
 “过滤器”->“自定义过滤规则”页面下方，可以输入域名进行测试。
 
-![](D:\Router\SRCS\xiaoqingfeng\HomeLede.wiki\DNS\AdGuardHome4.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/DNS/AdGuardHome4.jpg)
