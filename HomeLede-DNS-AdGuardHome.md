@@ -2,7 +2,7 @@
 
 固件内置AdGuardHome作为去广告方案。AdGuardHome基于DNS过滤方式，一次部署，全家庭内网生效。
 
-去广告原理及常见技术对比，[请见这里]([https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E6%BC%AB%E8%B0%88%E5%8E%BB%E5%B9%BF%E5%91%8A%EF%BC%8C%E5%8E%9F%E7%90%86%E5%8F%8A%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97](https://github.com/xiaoqingfengATGH/HomeLede/wiki/漫谈去广告，原理及避坑指南))
+去广告原理及常见技术对比，[请见这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E6%BC%AB%E8%B0%88%E5%8E%BB%E5%B9%BF%E5%91%8A%EF%BC%8C%E5%8E%9F%E7%90%86%E5%8F%8A%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97)
 
 去广告效果除了技术方案本身能力外，核心在于规则库。合理搭配，调整规则库，才可以获得较好的效果。
 
