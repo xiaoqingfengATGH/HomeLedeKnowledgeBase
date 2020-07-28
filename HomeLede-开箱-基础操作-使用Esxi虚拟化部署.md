@@ -30,44 +30,44 @@
 
 #### 1 创建虚拟机
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-1.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-2.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-3.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-4.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-5.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-6.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-7.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-8.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM1.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM2.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM3.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM4.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM5.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM6.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM7.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM8.jpg)
 
 ***
 
 #### 2 选择HomeLede的ESXI格式固件作为虚拟机硬盘。（建议提前创建好虚拟机保存位置，将HomeLede固件拷贝进去）
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-9.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-10.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-11.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM9.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM10.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM11.jpg)
 
 **注意：这里会提示转换虚拟磁盘格式，选择“转换”即可。**
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-12.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM12.jpg)
 
 在向导最后一页，打开“自定义硬件”，为虚拟机添加第二块网卡（默认会添加一块，对应于HomeLede内部的eth0，也就是LAN，再增加一块，对应于eth1，也就是WAN）。
 为了测试方便：
 + 这里第一块网卡选择了“仅主机模式”，默认对应于VMware Workstation在系统中创建的VMNet1。用于模拟HomeLede的LAN。
 + 第二块网卡选择“桥接”模式，相当于使这台虚拟机直接连入家庭网络。用于模拟HomeLede的WAN（可以直接利用家庭网络上网）。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10-createVM-13.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/10createVM13.jpg)
 
 ***
 
 #### 3 扩充硬盘
 点击“编辑虚拟机”设置。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/20-editvmconfig.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/20editvmconfig.jpg)
 
 选择“硬盘”，点击“扩展”，在弹出框内输入容量，最后点击“扩展”。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/30-extenddiskcapacity.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/30extenddiskcapacity.jpg)
 
 #### 4 启动HomeLede虚拟机，进行磁盘分区及格式化
 点击“开启此虚拟机”，等待HomeLede引导完毕。
@@ -76,7 +76,7 @@
 固件默认磁盘（Linux下第一块磁盘标记为/dev/sda）有两个分区，刚才执行了扩充操作，在现有两个分区后面扩展了60G容量，现在要把这新扩充的部分做成一个新的分区。
 执行命令`fdisk /dev/sda`，表示开始对第一块硬盘进行分区。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/50-fdisk.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/50fdisk.jpg)
 
 依次输入：
 + `n` （表示新建分区）`回车`
@@ -86,7 +86,7 @@
 
 接下来，对新创建的分区进行格式化。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/51-mkfs.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/51mkfs.jpg)
 
 输入`mkfs.ext4 /dev/sda3`，将新创建的分区格式化为ext4格式。
 
@@ -102,8 +102,8 @@
 
 #### 5 上传至ESXI
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/70-connesxi.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/71-uploadvm.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/72-selectesxiserver.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/73-confirmesxiserver.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/81-configesxinet.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/70connesxi.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/71uploadvm.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/72selectesxiserver.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/73confirmesxiserver.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/81configesxinet.jpg)
