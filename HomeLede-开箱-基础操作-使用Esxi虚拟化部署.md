@@ -63,11 +63,13 @@
 #### 3 扩充硬盘
 点击“编辑虚拟机”设置。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/20editvmconfig.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/20editVMConfig.jpg)
 
 选择“硬盘”，点击“扩展”，在弹出框内输入容量，最后点击“扩展”。
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/30extenddiskcapacity.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/30extendDiskCapacity.jpg)
+
+***
 
 #### 4 启动HomeLede虚拟机，进行磁盘分区及格式化
 点击“开启此虚拟机”，等待HomeLede引导完毕。
@@ -93,17 +95,33 @@
 最后，重启路由。
 
 重启后可以进行一些在本地的换固件的准备工作。
-+ 比如临时修改固件WAN的IP（如果默认IP和你家庭网络路由冲突的话），打开图形界面完成一些配置。
+
+比如:
++ 临时修改固件WAN的IP（如果默认IP和你家庭网络路由冲突的话），打开图形界面完成一些配置。
 + 上传一些备份的配置文件（dhcp、ddns、firewall、psw等等）
 + 测试固件中分流软件是否运作正常
 + 将安装软件路径、docker，某些需要记录日志的路径指向新增加的大容量分区。
 + 全部完成后，如果临时修改过路由ip，记得改回来
 + 关闭虚拟机
 
+***
+
 #### 5 上传至ESXI
 
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/70connesxi.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/71uploadvm.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/72selectesxiserver.jpg)
+按Ctrl+L调出连接服务器窗口。或者在从菜单中寻找“WorkStation”->“文件”->“连接服务器”。
+输入Esxi服务器 IP，用户及密码。
+
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/70connESXI.jpg)
+
+随后，上传HomeLede虚拟机到Esxi服务器。
+
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/71uploadVM.jpg)
+
+选择已经连接的服务器。
+
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/72selectESXIServer.jpg)
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/73confirmesxiserver.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/81configesxinet.jpg)
+
+至此，HomeLede虚拟机已经成功上传至Esxi，接下来在Esxi上配置一下网络，即可启动。
+
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/81configESXINet.jpg)
