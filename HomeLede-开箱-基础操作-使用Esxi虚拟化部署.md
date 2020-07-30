@@ -120,7 +120,7 @@
 选择已经连接的服务器。
 
 ![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/72selectESXIServer.jpg)
-![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/73confirmesxiserver.jpg)
+![](https://github.com/xiaoqingfengATGH/HomeLede/wiki/opencase/esxi/73confirmESXIServer.jpg)
 
 至此，HomeLede虚拟机已经成功上传至Esxi，接下来在Esxi上配置一下网络，即可启动。
 
