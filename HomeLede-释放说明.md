@@ -2,7 +2,42 @@
 
 [快速设置指南](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E5%BC%80%E7%AE%B1%E6%89%8B%E5%86%8C)
 
+### 开发中版本（未确定发布日）
+
+- 内核升级至5.4.56
+
+- 发布原创端口转发工具HomeRedirect，解决NAT环回问题。[介绍看这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E7%8E%A9%E8%BD%ACHomeLede-%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91)
+
+#### 内置组件
+
++ vlmcsd 升级至 svn1113-65228e5（这是干嘛的？[看这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E7%8E%A9%E8%BD%ACHomeLede-VLMCSD)）
++ passwall 升级至 xiaoqingfengMod-30-20200806
++ openclash 升级至 v0.39.6-beta
++ v2ray 升级至 4.27.0
++ brook 升级至 v20200801
++ mwan3 升级至 2.8.12-1
++ ttyd 升级至 1.6.1-3
++ smartdns 升级至 Relese31-2020.08.02
++ docker-ce 升级至 19.03.12-5
++ haproxy : 升级至 2.2.2-1
++ ddns-scripts 升级至 2.7.8-21
++ vim : 升级至 8.2-1
++ firewall 升级至 2020-07-25
++ unrar : 升级至 5.9.4-1
++ wireguard 升级至 1.0.20200729
++ fstools 升级至 2020-06-17
++ libupnp : 升级至 1.14.0-1
+
+#### 软件包
+
++ UnblockNeteaseMusicGo升级至 0.2.4 
++ netdata 升级至 v1.23.2
++ luci-app-ssr-plus 升级至 08.06
++ luci-theme-edge 升级至 1.8-20200725
++ 新增主题luci-theme-argon（背景图片随Bing每日更换）
+
 ### v2020.07.24（测试版）
+
 本次释放两个内核版本：
 - 基于7月初v4内核主代码，内核升级至4.19.134，配合HomeLede截止2020.07.24最新软件包（对应于HomeLede源码仓库master分支）
 - 基于近期v5内核主代码，内核升级至5.4.51,配合HomeLede截止2020.07.24最新软件包（对应于HomeLede源码仓库k5分支）
