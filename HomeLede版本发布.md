@@ -1,24 +1,25 @@
 
 
-## HomeLede 版本发布地址集合
+# HomeLede 版本发布地址集合
 
-### 主版本：适用于x86_64软路由
+## 主版本：适用于x86_64软路由
 
 + 正式发布（Release）：v2020.07.18 （内核v5.4.50）
 + 开发阶段性版本（Snapshot）：v2020.08.07 （提供v4.19.134与v5.4.56两个内核版本）
 
-### 下载位置
+## 下载位置
 
-**正式版及开发阶段性版本**
+### 正式版及开发阶段性版本
 
 Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
 
 **v2020.08.07测试版**
+
 百度网盘：https://pan.baidu.com/s/1WSgXkJIHsSejzRVEZEaXIg 提取码：1bs5
 
 天翼云盘：https://cloud.189.cn/t/yQrUVv7nue63 访问码:h9aq
 
-**正式版本**
+### 正式版本
 
 **HomeLede2020.07.18**（内核：5.4.50）
 
