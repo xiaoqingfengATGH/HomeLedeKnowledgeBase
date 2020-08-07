@@ -17,9 +17,9 @@ Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscK
 
 **HomeLede2020.07.18**（内核：5.4.50）
 
-百度网盘：链接：https://pan.baidu.com/s/1rkaC94rbCFT7Y6r9TgAjDQ 提取码：3bl8
+百度网盘：https://pan.baidu.com/s/1rkaC94rbCFT7Y6r9TgAjDQ 提取码：3bl8
 
-天翼云盘：https://cloud.189.cn/t/eYJvuuIBn2Ev  (访问码 : nay8 )
+天翼云盘：https://cloud.189.cn/t/eYJvuuIBn2Ev  访问码 : nay8
 
 **HomeLede2020.06.20**（内核：4.9.123）
 
@@ -31,31 +31,31 @@ Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscK
 
 百度网盘：https://pan.baidu.com/s/1UiypHCW3AmKc5-DgDrN2Vw 提取码:gjop
 
-天翼云盘：https://cloud.189.cn/t/qMvY3aBjy6Nb (访问码:  mx80)
+天翼云盘：https://cloud.189.cn/t/qMvY3aBjy6Nb 访问码:  mx80
 
 **HomeLede2020.05.10**
 
 百度网盘：链接：https://pan.baidu.com/s/1lukS8nWTBYIlGDSlozfymg 提取码：66g3 
 
-天翼云盘：https://cloud.189.cn/t/IbEzMrimUnqa (访问码:  joe8) 
+天翼云盘：https://cloud.189.cn/t/IbEzMrimUnqa 访问码:  joe8
 
 **HomeLede2020.04.29**
 
 百度网盘：https://pan.baidu.com/s/1ckYuQCgkkRe2a4_29xbghQ 提取码：dv6a 
 
-天翼云盘：https://cloud.189.cn/t/MnaIVr7vAFzq (访问码:  h1h7) 
+天翼云盘：https://cloud.189.cn/t/MnaIVr7vAFzq 访问码:  h1h7
 
 **HomeLede2020.04.19**
 
 百度网盘：https://pan.baidu.com/s/11a7zYEWdLXgpB6EaTp07Pw 提取码：2who 
 
-天翼云盘：https://cloud.189.cn/t/36f2aiB7ZnI3 (访问码: o8w2) 
+天翼云盘：https://cloud.189.cn/t/36f2aiB7ZnI3 访问码: o8w2
 
 **HomeLede2020.04.12**
 
 百度网盘：https://pan.baidu.com/s/1XtyD8eBtjsXVkUAzGqLjgw 提取码：dqwd 
 
-天翼云盘https://cloud.189.cn/t/VvQJR3R7zQ3q (访问码:  ogw6) 
+天翼云盘https://cloud.189.cn/t/VvQJR3R7zQ3q 访问码:  ogw6
 
 **HomeLede2020.04.06**
 
