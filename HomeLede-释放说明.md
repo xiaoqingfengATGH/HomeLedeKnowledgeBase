@@ -2,11 +2,17 @@
 
 [快速设置指南](https://github.com/xiaoqingfengATGH/HomeLede/wiki/HomeLede-%E5%BC%80%E7%AE%B1%E6%89%8B%E5%86%8C)
 
-### 开发中版本（未确定发布日）
+### v2020.08.07（测试版）
 
-- 内核升级至5.4.56
+- k5分支内核升级至5.4.56
 
 - 发布原创端口转发工具HomeRedirect，解决NAT环回问题。[介绍看这里](https://github.com/xiaoqingfengATGH/HomeLede/wiki/%E7%8E%A9%E8%BD%ACHomeLede-%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91)
+
+- 本次提供两个版本
+  - 基于v5.4.56内核版本（对应k5分支）
+  - 基于v4.9.134内核版本（对应master分支）
+
+两个版本除内核外，软件配置完全相同，部分包版本略有差异。
 
 #### 内置组件
 
