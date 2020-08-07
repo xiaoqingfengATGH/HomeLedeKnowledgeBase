@@ -13,6 +13,11 @@
 
 Google网盘：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
 
+**v2020.08.07测试版**
+百度网盘：https://pan.baidu.com/s/1WSgXkJIHsSejzRVEZEaXIg 提取码：1bs5
+
+天翼云盘：https://cloud.189.cn/t/yQrUVv7nue63 访问码:h9aq
+
 **正式版本**
 
 **HomeLede2020.07.18**（内核：5.4.50）
